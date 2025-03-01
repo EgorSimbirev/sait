@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/registration.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Регистрация</title>
+    <script>
+      const btn = document.getElementById("btn");
+      btn.addEventListener("click", ()=>{
+          alert("Hello METANIT.COM");   // отображаем всплывающее окно при нажати на кнопку
+      });
+      </script>
+</head>
+<body>
+    <header>
+      <div class="container_container_header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="../img/подушка.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Переключатель навигации">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href="../index.html">Главная</a>
+                    <a class="nav-link" href="Products.html">Каталог</a>
+                    <a class="nav-link" href="Registration.html">Регистрация</a>
+                  </div>
+                </div>
+              </div>
+          </nav>   
+    </div>   
+    </header>  
+<main>
+    <div class="container">
+    <section>
+        <div class="title">
+            <h1>Авторизация</h1>
+        </div>
+            <h4>Введите почту:</h4>
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label class="text-black" for="floatingInput">Почта</label>
+          </div>
+          <h4>Введите пароль:</h4>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label class="text-black" for="floatingPassword">Пароль</label>
+        <p></p><button class="btn btn-light">Войти</button>
+    </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="section-registration">
+                <h4>У вас ещё нет аккаунта?</h4>
+            <div class="section-registration-display">
+                <div class="registration">
+                    <div class="input-group mb-3">
+                        <div class="form-floating">
+                          <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
+                          <label class="text-black" for="floatingInputGroup1">Имя пользователя</label>
+                        </div>
+                      </div>
+                </div>
+                <div class="registration">
+                <div class="row g-2">
+                <div class="col-md">
+                  <div class="form-floating">
+                    <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="@email.com">
+                    <label class="text-black" for="floatingInputGrid">Введите email</label>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="registration">
+              <div class="form-floating">
+            
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label class="text-black" for="floatingPassword">Пароль</label>
+              </div>
+            </div>
+            <div class="registration">
+              <div class="form-floating">
+            
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label class="text-black" for="floatingPassword">Повторите пароль</label>
+
+                <p></p><button class="btn-btn-light">Зарегестрироваться</button>
+              </div>
+            </div>
+        </div>
+            </div>
+            </div>
+        </div> 
+    </section>
+</main>
+<footer>
+    <div class="container">
+        <div class="footer">
+            <div>
+                <h5>Наши соцсети</h5>
+                <a href="">
+                    <img src="../img/vk.png" class="Icon" alt="">
+                </a>
+                <a href="">
+                    <img src="../img/noroot.png" class="Icon-inst" alt="">
+                </a>
+                <a href="">
+                    <img src="../img/Facebook-logo.png" class="Icon" alt="">
+                </a>
+            </div>
+            <div class="footer__info">
+                <h5>
+                    Позвоните нам: +7 (978) 124-17-22
+                </h5>
+                <h5>
+                    Напиши нам:  
+                    <span class="p-mail">
+                        <a href="">Dakimakura.Shop@mail.ru</a>
+                    </span>
+                </h5>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>              
+</body>
+</html>
